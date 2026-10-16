@@ -6,6 +6,10 @@ It's written in AWS CDK (TypeScript). The tests run every access pattern against
 
 ![Access patterns of the task tracker mapped to the table and the GSI, with the 25-unit split](diagrams/architecture.png)
 
+## Architecture
+
+![A DynamoDB table and its GSI serving the task tracker, with the capacity split](docs/architecture.png)
+
 ## The capacity plan
 
 Every provisioned table and GSI in the Region draws from the same 25 units, so the plan splits them:
