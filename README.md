@@ -4,8 +4,6 @@ Amazon DynamoDB's always-free tier gives you 25 read capacity units (RCU) and 25
 
 It's written in AWS CDK (TypeScript). The tests run every access pattern against DynamoDB Local, measure the capacity each one uses, and check that the designed peak workload fits.
 
-![Access patterns of the task tracker mapped to the table and the GSI, with the 25-unit split](diagrams/architecture.png)
-
 ## Architecture
 
 ![A DynamoDB table and its GSI serving the task tracker, with the capacity split](docs/architecture.png)
