@@ -19,8 +19,8 @@
     "destroy": "cdk destroy"
   },
   "dependencies": {
-    "@aws-sdk/client-dynamodb": "^3.1152.0",
-    "@aws-sdk/lib-dynamodb": "^3.1152.0",
+    "@aws-sdk/client-dynamodb": "^3.1156.0",
+    "@aws-sdk/lib-dynamodb": "^3.1156.0",
     "@aws-sdk/util-dynamodb": "^3.996.9",
     "aws-cdk-lib": "^2.273.0",
     "cdk-nag": "^3.0.2",
